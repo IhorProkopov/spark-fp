@@ -38,7 +38,7 @@ object FinalProject {
     val whPosDS = read[WarehousePosition].as[WarehousePosition]
     amountDS.show
     whPosDS.show
-    currentAmount(amountDS, whPosDS).shows
+    currentAmount(amountDS, whPosDS).show
     minMaxAvg(amountDS, whPosDS).show
   }
 
